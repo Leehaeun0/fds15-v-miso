@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <title>미소-예약하기</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <header class="header-reservation">
+            <h1 class="logo">
+                <a href="../main.html">
+                    <img src="../assets/images/img-logo.png" alt="미소 로고">
+                </a>
+            </h1>
+        </header>
+        <main class="main-reservation clearfix">
+            <div class="content-reservation">
+                <section class="group group1">
+                    <h2 class="a11y-hidden">예약날짜</h2>
+                    <h3>정기청소 예약</h3>
+                    <p>청소를 언제하고 싶으신가요?</p>
+                    <button type="submit" class="date">2월 7일 금요일</button>
+                </section>
+                <section class="group group2">
+                    <h2 class="a11y-hidden">서비스 시간</h2>
+                    <div class="times">
+                        <form action="/">
+                            <p>서비스 시간을 선택해주세요.</p>
+                            <input type="radio" id="clock3" name="times"><label for="clock3">3시간</label>
+                            <input type="radio" id="clock4" name="times"><label for="clock4">4시간</label>
+                            <input type="radio" id="clock8" name="times"><label for="clock8">8시간</label>
+                        </form>
+                        <form action="/" class="clock">
+                            <p>시작 시간을 선택해주세요</p>
+                            <input type="radio" id="time1" name="clock"><label for="time1">오전 10시</label>
+                            <input type="radio" id="time2" name="clock"><label for="time2">오후 2시</label>
+                        </form>
+                        <span class="check">오전 10시~오후 1시</span>
+                        <div class="notice-item">
+                            <p class="notice">서비스 요금은 주소에 따라 다르게 책정됩니다</p>
+                            <a href="#">상세 가격 안내 보기</a>
+                        </div>
+                    </div>
+                    <div class="week">
+                        <form action="/">
+                            <p>주기를 선택해주세요</p>
+                            <input type="radio" id="1week" name="week"><label for="1week">매주</label>
+                            <input type="radio" id="2week" name="week"><label for="2week">2주</label>
+                            <input type="radio" id="month" name="week"><label for="month">4주</label>
+                        </form>
+                        <span class="check">4주마다 금요일에 청소</span>
+                    </div>
+                    <button class="next" type="submit">다음으로 진행</button>
+                </section>
+                <section class="group group3">
+                    <h2 class="a11y-hidden">연락처 인증번호</h2>
+                    <p>연락처를 인증해주세요.</p>
+                    <div class="input-group">
+                        <input type="tel" placeholder="휴대전화 번호">
+                        <button type="submit" class="btn-phone">인증번호 받기</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <div class="footer-bg-reservation">
+            <footer class="footer-reservation">
+                <p class="copyright">© 2019. 유한회사 미소. Miso, Inc. All Rights Reserved.</p>
+                <address class="address">
+                    <span>사업자등록번호: 291-87-00271</span>
+                    <span>인허가번호: 2016-3220163-14-5-00019</span>
+                    <span>대표이사: CHING VICTOR COLUMBIA R</span>
+                    <span>대표전화: 1577-8808</span>
+                    <span>주소: 서울특별시 논현로86길 32, 1층</span>
+                </address>
+                <ul class="guide-list">
+                    <li><a href="#">블로그</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
